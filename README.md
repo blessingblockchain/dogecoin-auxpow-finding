@@ -1,6 +1,6 @@
 # 1. Title
 
-Dogecoin AuxPoW Blocks Skip Difficulty Target Validation — Zero-Cost Block Forgery Enables Complete Bridge Fund Theft
+`skip_pow_verification = true` After `check_aux()` in `dogecoin.rs` Bypasses Difficulty Target Check for All AuxPoW Blocks which enables an Attacker Forges Blocks at Minimum Difficulty to Drain Bridge
 
 ---
 
